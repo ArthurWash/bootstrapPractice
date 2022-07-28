@@ -21,12 +21,41 @@
 
         body {
             background-image: url(images/background.jpg);
+            color: antiquewhite;
+            font-family: 'Indie Flower', cursive;
+        }
+
+        h1 {
+          background-color: #212529;
+          border-radius: 10px;
+          width: fit-content;
+          padding: 20px;          
+        }
+
+        .catPic {
+          width: 40%;
+          border-radius: 10px;
+          margin: 50px;
+        }
+
+        .article {
+          background-color: #212529;
+          font-size: 2.75em;
+          padding: 20px;
+          border-radius: 10px;
         }
 
         .nav-link {color: #faebd7;}
+
+        .overlay-text {
+          position: absolute;
+          font-size: 2.5em;
+          text-shadow: 3px 3px 3px black;
+        }
+
     </style>
     
-    <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+    <nav class="navbar navbar-dark navbar-expand-lg bg-dark ">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
             <img src="images/logo.png">
@@ -70,7 +99,38 @@
         </div>
       </div>
     </nav>
-    
-    <!-- End Example Code -->
+    <br>
+    <br>
+    <br>
+    <div class="d-flex align-items-center justify-content-center">
+      <h1>Welcome Cat Lovers :3</h1>
+    </div>
+    <div class="d-flex align-items-center justify-content-center">
+      <img class="catPic" src="images/jiji.jpeg">
+      <span class="overlay-text">
+        JiJi
+      </span>
+    </div>
+    <div class="d-flex align-items-center justify-content-center">
+      <img class="catPic" src="images/mimi.jpeg">
+      <span class="overlay-text">
+        Mimi
+      </span>
+    </div>
+    <div class="d-flex align-items-center justify-content-center">
+      <p class="article">This is a fan club for the Wash/Deubel Babies :3
+    </div>
+    <div class="d-flex align-items-center justify-content-center">
+      <img class="catPic" src="images/snicki.jpeg">
+      <span class="overlay-text">
+        Snicki-boo
+      </span>
+    </div>
+    <div class="d-flex img-container align-items-center justify-content-center">
+      <img class="catPic" src="images/sammy.jpeg">
+      <span class="overlay-text">
+        Sammy
+      </span>
+    </div>
   </body>
 </html>
